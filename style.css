@@ -1,0 +1,33 @@
+body{
+    font-size: 18px;
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+h2{
+    text-align: center;
+}
+.progress-container{
+    width: 100%;
+    height: 8px;
+    background: #ccc; 
+}
+.progress-bar{
+    height: 8px;
+    background: #3CB371;
+    width: 0%;
+}
+.content{
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+}
+.content p{
+    text-align: justify;
+}
